@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package ai;
+
 service AITool {
   rpc ProcessMessage (UserMessage) returns (ToolResponse);
 }
